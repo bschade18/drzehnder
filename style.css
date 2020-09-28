@@ -1,12 +1,18 @@
-body {
-  background: lightblue;
-}
-
 img {
   margin: auto;
   display: block;
 }
 
-h1 {
+nav {
+  background: #f0f0f0;
+  color: #333;
+}
+ul {
+  list-style: none;
+}
+
+h1,
+h3,
+p {
   text-align: center;
 }
