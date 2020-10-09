@@ -1,18 +1,163 @@
-img {
-  margin: auto;
-  display: block;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-nav {
-  background: #f0f0f0;
-  color: #333;
+body {
+  font-family: 'Roboto', sans-serif;
 }
-ul {
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 90%;
+  /* border: 2px solid #6a1400; */
+  border-radius: 5px;
+}
+
+p {
+  line-height: 1.7;
+}
+
+/* Utility Class */
+.container {
+  max-width: 1100px;
+  overflow: auto;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+.lg-heading {
+  font-size: 1.75rem;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+/* Navbar */
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: navy;
+  background-color: #5d2f86;
+  background-color: #0076bd;
+  background-color: rgba(60, 81, 100, 0.96);
+  color: #fff;
+}
+
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 1rem;
+}
+#navbar div div {
+  font-size: 1.25rem;
+}
+#navbar ul {
+  display: flex;
   list-style: none;
 }
 
-h1,
-h3,
-p {
+#navbar ul li a {
+  color: #fff;
+  padding: 0.25rem;
+  margin: 0px 15px;
+  font-size: 1.25rem;
+}
+
+#navbar ul li a:hover {
+  border-bottom: 3px solid #ffe000;
+}
+.current {
+  border-bottom: 3px solid #ffe000;
+}
+
+/* About */
+#about {
+  background: #fff;
+}
+
+#about .about-text p {
+  margin: 1rem;
+  font-size: 1rem;
+}
+#about .about-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#about .about-content-left {
+  display: flex;
+  flex-direction: column;
+}
+
+#about .about-content .about-image .social {
+  margin: 10px auto;
+  text-align: center;
+}
+
+#about .about-content .about-image .social a,
+#about .about-content .about-image .social a:visited {
+  margin: 0px 10px;
+  color: gray;
+}
+
+#about .about-content .about-image .social a:hover {
+  color: lightgray;
+}
+
+#about .about-content .about-image img {
+  border-radius: 50%;
+  width: 375px;
+  width: 200px;
+  height: auto;
+}
+#about .about-content .about-text {
+  padding: 1rem;
+  line-height: 1.7;
+  flex: 1;
+}
+#about h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
+#footer .container {
+  border-top: 0.1px solid rgba(60, 81, 100, 0.96);
+}
+
+#footer {
+  margin-top: 5rem;
+}
+
+#copyright {
+  display: block;
   text-align: center;
 }
