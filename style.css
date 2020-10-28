@@ -114,6 +114,13 @@ p {
 #about .about-content-left {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image #profile-picture {
+  display: block;
+  margin: auto;
 }
 
 #about .about-content .about-image .social {
