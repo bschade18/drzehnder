@@ -1,0 +1,23 @@
+{
+  "name": "zehnder-site",
+  "version": "1.0.0",
+  "description": "Dr. Zehnder Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bschade18/drzehnder.git"
+  },
+  "author": "Bobby Schade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bschade18/drzehnder/issues"
+  },
+  "homepage": "https://github.com/bschade18/drzehnder#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.5"
+  }
+}
