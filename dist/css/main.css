@@ -63,46 +63,36 @@ p {
 
 /* Navbar */
 #navbar {
-  position: sticky;
-  top: 0;
   background-color: navy;
-  background-color: #5d2f86;
-  background-color: #0076bd;
-  background-color: rgba(60, 81, 100, 0.96);
-  background-color: #000080;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+
+#navbar a {
   color: #fff;
 }
 
-#navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2.5rem 1rem;
-}
-
-#navbar div div {
-  font-size: 1.25rem;
-  font-size: 1.5rem;
-}
-
-#navbar ul {
-  display: flex;
-  list-style: none;
-}
-
-#navbar ul li a {
+.navbar-toggler {
   color: #fff;
-  padding: 0.25rem;
-  margin: 0px 15px;
-  font-size: 1.25rem;
+  background-color: navy;
 }
 
-#navbar ul li a:hover {
-  border-bottom: 3px solid #ffe000;
+.navbar-tabs-mobile {
+  display: none;
+  z-index: 2;
+  position: relative;
 }
 
 .current {
   border-bottom: 3px solid #ffe000;
+}
+
+.fa-bars {
+  border: 1px solid #fff;
+  padding: 7px 12px;
+  border-radius: 3px;
+  color: #fff;
 }
 
 /* About */
