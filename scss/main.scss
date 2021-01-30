@@ -79,38 +79,6 @@ p {
   background-color: hsl(240, 100%, 25%);
 }
 
-// #navbar .container {
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   padding: 2.5rem 1rem;
-// }
-// #navbar div div {
-//   font-size: 1.25rem;
-//   font-size: 1.5rem;
-// }
-// #navbar ul {
-//   display: flex;
-//   list-style: none;
-// }
-
-// #navbar ul li a {
-//   color: #fff;
-//   padding: 0.25rem;
-//   margin: 0px 15px;
-//   font-size: 1.25rem;
-// }
-
-// #navbar ul li a:hover {
-//   border-bottom: 3px solid #ffe000;
-// }
-
-// .navbar-tabs-mobile {
-//   display: none;
-//   z-index: 2;
-//   position: relative;
-// }
-
 .fa-bars {
   border: 1px solid #fff;
   padding: 7px 12px;
@@ -187,36 +155,6 @@ nav#navbar.navbar.navbar-expand-lg.navbar-dark {
     border-bottom: 2px solid transparent;
   }
 }
-// .content {
-//   position: relative;
-// }
-
-// #collapseExample {
-//   position: absolute;
-//   z-index: 1;
-// }
-
-// @media screen and (max-width: 900px) {
-//   #navbar ul {
-//     display: none;
-//   }
-
-//   .fa-bars {
-//     display: block;
-//   }
-
-//   .navbar-tabs-mobile {
-//     z-index: 2;
-//     position: relative;
-//     background-color: orangered;
-//   }
-// }
-
-// @media screen and (min-width: 900px) {
-//   .navbar-tabs-mobile {
-//     display: none;
-//   }
-// }
 
 /* About */
 #home {
@@ -230,12 +168,13 @@ nav#navbar.navbar.navbar-expand-lg.navbar-dark {
 }
 
 #home .home-text p {
-  margin: 1rem;
+  // margin: 1rem;
   font-size: 1rem;
 }
 #home .home-content {
   display: flex;
   justify-content: flex-end;
+  justify-content: space-between;
 }
 
 #home .home-content-left {
@@ -273,13 +212,27 @@ nav#navbar.navbar.navbar-expand-lg.navbar-dark {
   height: auto;
 }
 #home .home-content .home-text {
-  padding: 1rem;
+  padding: 2rem;
   line-height: 1.7;
   flex: 1;
 }
 #home h3 {
   text-align: center;
-  margin-bottom: 1.5rem;
+  // margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 991px) {
+  #home .home-content {
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-end;
+    // justify-content: space-between;
+  }
+
+  #home .home-content .home-text {
+    padding: 0.25rem 1rem;
+  }
 }
 
 /* Services */
@@ -288,14 +241,6 @@ nav#navbar.navbar.navbar-expand-lg.navbar-dark {
   height: 300px;
   width: 300px;
 }
-
-/* Footer */
-// #footer {
-//   position: fixed;
-//   bottom: 0;
-//   left: 0;
-//   right: 0;
-// }
 
 #footer .container {
   border-top: 0.1px solid rgba(60, 81, 100, 0.96);

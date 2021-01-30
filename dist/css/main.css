@@ -160,13 +160,13 @@ nav#navbar.navbar.navbar-expand-lg.navbar-dark {
 }
 
 #home .home-text p {
-  margin: 1rem;
   font-size: 1rem;
 }
 
 #home .home-content {
   display: flex;
   justify-content: flex-end;
+  justify-content: space-between;
 }
 
 #home .home-content-left {
@@ -205,23 +205,32 @@ nav#navbar.navbar.navbar-expand-lg.navbar-dark {
 }
 
 #home .home-content .home-text {
-  padding: 1rem;
+  padding: 2rem;
   line-height: 1.7;
   flex: 1;
 }
 
 #home h3 {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
+@media (max-width: 991px) {
+  #home .home-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home .home-content .home-text {
+    padding: 0.25rem 1rem;
+  }
+}
 /* Services */
 #services img {
   height: 300px;
   width: 300px;
 }
 
-/* Footer */
 #footer .container {
   border-top: 0.1px solid rgba(60, 81, 100, 0.96);
 }
