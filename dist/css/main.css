@@ -22,13 +22,6 @@ p {
 }
 
 /* Utility Class */
-.container {
-  max-width: 1100px;
-  overflow: auto;
-  margin: auto;
-  padding: 0 1.5rem;
-}
-
 .lg-heading {
   font-size: 1.75rem;
 }
@@ -65,7 +58,7 @@ p {
 #navbar {
   background-color: navy;
   position: absolute;
-  z-index: 1000;
+  z-index: 10;
   width: 100%;
 }
 
@@ -78,16 +71,6 @@ p {
   background-color: navy;
 }
 
-.navbar-tabs-mobile {
-  display: none;
-  z-index: 2;
-  position: relative;
-}
-
-.current {
-  border-bottom: 3px solid #ffe000;
-}
-
 .fa-bars {
   border: 1px solid #fff;
   padding: 7px 12px;
@@ -95,9 +78,41 @@ p {
   color: #fff;
 }
 
+li.nav-item {
+  margin-left: 1.75rem;
+}
+
+a.nav-link {
+  padding-bottom: 0px;
+  transition-property: border-bottom;
+  transition-duration: 1s;
+  border-bottom: 2px solid transparent;
+}
+
+a.nav-link:hover {
+  border-bottom: 2px solid #ffe000;
+}
+
+a.nav-link.current {
+  border-bottom: 2px solid #ffe000;
+}
+
+nav#navbar.navbar.navbar-expand-md.navbar-dark {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
 /* About */
 #home {
   background: #fff;
+  position: relative;
+  top: 59px;
 }
 
 #home .container {
