@@ -273,10 +273,41 @@ nav#navbar.navbar.navbar-expand-lg.navbar-dark {
 }
 
 /* Services */
+#services {
+  background: #fff;
+  position: relative;
+  top: 59px;
+}
 
+#services h3 {
+  margin-top: 1rem;
+}
+
+#services ul {
+  list-style: none;
+}
+
+#services .services-images {
+  display: flex;
+  justify-content: space-between;
+}
 #services img {
   height: 300px;
   width: 300px;
+}
+
+@media (max-width: 991px) {
+  #services .services-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #services img {
+    width: 400px;
+    height: 400px;
+    margin: 8px 0px;
+  }
 }
 
 #footer .container {
