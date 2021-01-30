@@ -148,7 +148,7 @@ nav#navbar.navbar.navbar-expand-lg.navbar-dark {
     border-bottom: 2px solid transparent;
   }
 }
-/* About */
+/* Home */
 #home {
   background: #fff;
   position: relative;
@@ -225,6 +225,28 @@ nav#navbar.navbar.navbar-expand-lg.navbar-dark {
     padding: 0.25rem 1rem;
   }
 }
+/* About */
+#about {
+  background: #fff;
+  position: relative;
+  top: 59px;
+}
+
+#about h3 {
+  margin-top: 1rem;
+}
+
+#about ul {
+  list-style: none;
+}
+
+#about img {
+  width: 250px;
+  margin: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
 /* Services */
 #services img {
   height: 300px;
