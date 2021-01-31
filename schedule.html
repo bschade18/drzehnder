@@ -8,48 +8,56 @@
       src="https://kit.fontawesome.com/b714cb1e0e.js"
       crossorigin="anonymous"
     ></script>
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./dist/css/main.css" />
   </head>
   <body>
-    <nav id='navbar' class="navbar navbar-expand-lg navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-          <a class="navbar-brand cursive" href="#">Dr. David Zehnder, D.O.</a>
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-              <!-- <span class="navbar-toggler-icon"></span> -->
-              <i class="fa fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="about.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="approach.html">Approach</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="services.html">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link current" href="schedule.html">Schedule</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pay.html">Pay</a>
-              </li>
-              </ul>
-          </div>
+        <a class="navbar-brand cursive" href="#">Dr. David Zehnder, D.O.</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="approach.html">Approach</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link current" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pay.html">Pay</a>
+            </li>
+          </ul>
+        </div>
       </div>
-  </nav>
+    </nav>
     <section id="schedule" class="py-3">
       <div class="container">
         <h3 class="lg-heading">Come See Me</h3>
@@ -57,37 +65,35 @@
           <div class="schedule-content-left"></div>
           <div class="schedule-text">
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
-              quas placeat hic quae officia unde. Quibusdam, at corrupti?
-              Molestias nostrum laborum aperiam, excepturi temporibus maxime
-              commodi explicabo voluptatem distinctio molestiae, suscipit, earum
-              totam quibusdam mollitia asperiores ab quam ipsa laudantium.
+              We would love to get you on the schedule and with the ease of
+              scheduling for appointments, please fill out the boxes below.
+              We’ll be in touch and can’t wait to see you soon!
             </p>
             <!-- Contact: have a calendar with appointment slots
 -also have information and a textbook which has information like first name last name email phone number header of message then message box and submit button -->
             <form action="">
               <div>
-              <label for="">First Name</label>
-              <input type="text" id="text" />
-            </div>
-          <div>
-              <label for="">Last Name</label>
-              <input type="text" id="text" />
-            </div>
-          </div>
-              <label for="">Email</label>
-              <input type="text" id="text" />
-            </div>
-            <div>
-              <label for="">Phone Number</label>
-              <input type="text" id="text" />
-            </div>
-            <label for="">Message</label>
-            <div>
-             
-              <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-              <input type="submit" id="submit" />
+                <label for="">First Name</label>
+                <input type="text" id="text" />
+              </div>
+              <div>
+                <label for="">Last Name</label>
+                <input type="text" id="text" />
+              </div>
+              <div>
+                <label for="">Email</label>
+                <input type="text" id="text" />
+              </div>
+              <div>
+                <label for="">Phone Number</label>
+                <input type="text" id="text" />
+              </div>
+
+              <div>
+                <label for="">Message</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+              </div>
+              <input type="submit" id="submit" class='btn' />
             </form>
           </div>
         </div>
@@ -101,12 +107,21 @@
         </p>
       </div>
     </footer>
-    <script src='./js/main.js'></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
